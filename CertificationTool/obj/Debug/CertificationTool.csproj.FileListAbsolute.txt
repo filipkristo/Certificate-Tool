@@ -1,0 +1,7 @@
+c:\users\roger\documents\visual studio 2013\Projects\CertificationTool\CertificationTool\bin\Debug\CertificationTool.exe.config
+c:\users\roger\documents\visual studio 2013\Projects\CertificationTool\CertificationTool\obj\Debug\Interop.CERTENROLLLib.dll
+c:\users\roger\documents\visual studio 2013\Projects\CertificationTool\CertificationTool\obj\Debug\CertificationTool.csproj.ResolveComReference.cache
+c:\users\roger\documents\visual studio 2013\Projects\CertificationTool\CertificationTool\bin\Debug\CertificationTool.exe
+c:\users\roger\documents\visual studio 2013\Projects\CertificationTool\CertificationTool\bin\Debug\CertificationTool.pdb
+c:\users\roger\documents\visual studio 2013\Projects\CertificationTool\CertificationTool\obj\Debug\CertificationTool.exe
+c:\users\roger\documents\visual studio 2013\Projects\CertificationTool\CertificationTool\obj\Debug\CertificationTool.pdb
