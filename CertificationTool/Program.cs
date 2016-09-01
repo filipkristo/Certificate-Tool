@@ -17,8 +17,7 @@ namespace CertificationTool
             ReadCommonName(false);
             ReadPort(false);
 
-            CertUtils.SUBJECTNAME = CommonName;
-            CertUtils.BindSslPort(Ports);
+            CertUtils.BindSslPort(CommonName, Ports);
 
             Console.WriteLine("Succeed!");
             Console.WriteLine();

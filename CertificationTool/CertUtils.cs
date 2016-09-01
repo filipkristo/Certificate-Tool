@@ -9,7 +9,7 @@ namespace CertificationTool
 {
     public class CertUtils
     {
-        public static string SUBJECTNAME { get; set; }
+        static string SUBJECTNAME { get; set; }
         static X509Certificate2 certificate; 
         static X509Certificate2 CreateSelfSignedCertificate()
         {
@@ -155,8 +155,9 @@ namespace CertificationTool
             }
         }
 
-        public static void BindSslPort(List<int> ports)
+        public static void BindSslPort(string subjectName, List<int> ports)
         {
+            SUBJECTNAME = subjectName;
             if (string.IsNullOrEmpty(SUBJECTNAME))
             {
                 Console.WriteLine("Invalid common name!");
